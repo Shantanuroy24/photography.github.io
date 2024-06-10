@@ -1,0 +1,7330 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: hsla(0, 24%, 93%, 0.27);
+}
+
+
+/* ==========================header-part========================== */
+header {
+    background: linear-gradient(to left,
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/logo/Edinburgh-Winter-Wedding-1.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    /* object-fit: cover; */
+    /* background-size: 100% 100%;  */
+    /* linear-gradient(to left,
+    rgba(36, 36, 36, 0.6),
+    rgba(40, 30,39, 0.6)) */
+    /*
+    
+     linear-gradient(to left,
+    rgba(40, 30,30, 0.6),
+    rgba(40, 30,30, 0.6)),*/
+    border-bottom: 5px solid #841921;
+}
+
+.nav-part {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo .menu {
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.menu-bar {
+    display: none;
+}
+
+.nav-list2 .slider {
+    position: fixed;
+    width: 500px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgba(95, 95, 95, 0.2);
+    z-index: 2;
+    box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 120px;
+    display: none;
+    gap: 20px;
+
+
+}
+
+.nav-list2 .slider .slider-bar:hover {
+
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 3.8vh;
+
+}
+
+.nav-list2 ul li a {
+    font-size: 30px;
+    color: #ffff;
+    padding-left: 170px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-list2 ul li .close {
+    font-size: 40px;
+    padding: 0px 0 60px 0px;
+}
+
+.nav-logo img {
+    width: 100%;
+    height: 30vh;
+}
+
+.nav-list1 a {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.nav-list1 a:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(248, 245, 245, 0.641);
+    height: 2px;
+    width: 0;
+    left: 0px;
+    bottom: 0px;
+    transition: 1s;
+}
+
+.nav-list1 a:hover:after {
+    width: 100%;
+}
+
+.nav-list1 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.nav-list1 ul li a {
+    font-size: 22px;
+    color: #ffff;
+    letter-spacing: 4px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.nav-text .nav-para {
+    font-size: 70px;
+    text-align: center;
+    color: #ffff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* ==========<!--========================= main-part  =========================-->======== */
+.main-text {
+    padding: 4vw 1vw;
+    height: 72vh;
+    width: 100%;
+    /* color: #FFBE0A; */
+}
+.main-text-sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-text-sub1 .main-text1 {
+    text-align: center;
+    font-size: 32px;
+    color: hsla(0, 0%, 16.08%, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* padding: 0 400px 25px 400px; */
+}
+
+.main-text-sub1 .main-text2 {
+    text-align: center;
+    font-size: 40px;
+    color: hsla(0, 0%, 16.08%, 1);
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 400px 140px 400px;
+}
+
+.main-text-sub1 .main-text2 .main-text3 {
+    color: hsla(355.51, 68.15%, 30.78%);
+}
+
+.main-text-sub2 {
+    position: relative;
+}
+
+.main-text-sub2::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 1px;
+    width: 42%;
+    top: -40px;
+    left: 500px;
+}
+
+.main-text-sub2 .main-para1 {
+
+    text-align: left;
+    padding: 0 500px 0 500px;
+    font-size: 18px;
+    color: hsla(0, 0%, 16.08%, 1);
+    padding-bottom: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* ========================about====================== */
+
+.about {
+    background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    border-bottom: 5px solid #FFBE0A;
+    border-top: 5px solid #FFBE0A;
+}
+
+.about-text {
+    position: absolute;
+    left: 140px;
+    margin-top: 200px;
+}
+
+.about-text .about-text1 {
+    font-size: 70px;
+    color: hsla(3.75, 80%, 98.04%, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.about-text .about-text2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFBE0A;
+}
+
+.story {
+    margin-top: 30vw;
+    width: 60%;
+    height: 60vh;
+    padding: 45px 30px 0 30px;
+    background: #29292978;
+}
+
+.story-text .story-text1 {
+    color: #FFBE0A;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-text .para-story {
+    color: #FEFBF6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-part .story-part1 {
+    color: #FFBE0A;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-part .story-part2 {
+    color: #FEFBF6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-part .story-part3 {
+    color: #FEFBF6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-part .story-part4 {
+    color: #FEFBF6;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.story-button {
+    padding-top: 60px;
+}
+
+.story-button .story-btn {
+    padding: 35px 100px;
+    background-color: #FFBE0A;
+    color: hsla(0, 0%, 16.08%, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: all .8s linear;
+}
+
+.story-button .story-btn:hover {
+    background: #2c2b27;
+    color: #FEFBF6;
+
+
+}
+
+/* =========<!--==================== Number-counting =================-->======== */
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    /* padding: 40px; */
+    flex-wrap: wrap;
+    height: 40vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container .num {
+    font-size: 70px;
+    text-align: center;
+    color: #841921;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container .text {
+    font-size: 30px;
+    text-align: center;
+    color: #292929;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container .num1 {
+    font-size: 70px;
+    text-align: center;
+    color: #841921;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*=============<!--====================moments-part===================================-->==============*/
+
+.moments {
+    background: linear-gradient(to left,
+            rgba(40, 30, 30, 0.6),
+            rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+    width: 100%;
+    height: 100vh;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    border-top: 4px solid #841921;
+    border-bottom: 6px solid #841921;
+}
+
+.moments-text {
+    position: absolute;
+    left: 1000px;
+    bottom: 150px;
+    padding: 0 100px 0 100px;
+
+
+}
+
+.moments-text .moments-text1 {
+    font-size: 20px;
+    text-align: justify;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.moments-text .moments-text2 {
+    font-size: 15px;
+    text-align: right;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+    border-top: 2px solid #FFBE0A;
+    padding-top: 15px;
+}
+
+/*  <!-- =============================package================================ --> */
+
+.pack {
+    width: 100%;
+    height: 230vh;
+    padding-top: 80px;
+}
+
+.pack-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack-text .pack-text1 {
+
+
+    font-size: 39px;
+    border-bottom: 5px solid #FFBE0A;
+    color: #292929;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.pack-text .pack-text2 {
+    text-align: left;
+    color: #292929;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    width: 48%;
+    padding: 70px 0 0 0;
+    letter-spacing: 1.5px;
+}
+
+.pack-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 150px 0;
+
+}
+
+.pack-btn .pack-btn1 {
+    padding: 40px 10px 40px 10px;
+    width: 23%;
+    text-align: center;
+    background: #841921;
+    color: #FEFBF6;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: all .8s linear;
+}
+
+.pack-btn .pack-btn1:hover {
+    border: 3px solid #841921;
+    background: none;
+    color: #841921;
+
+}
+
+
+.pack-img .pack-part-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px 150px 200px;
+}
+
+.pack-img .pack-img1 {
+    width: 100%;
+    height: 32vh;
+
+}
+
+/* /////////// pack-box////////////////*/
+.pack-box {
+    margin: auto;
+    background-color: #841921;
+    width: 80%;
+    height: 95vh;
+    /* padding: 0 50px 0 50px; */
+
+}
+
+.pack-box .pack-box-text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pack-box .pack-box-text .pack-box-text1 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FEFBF6;
+}
+
+.home__images {
+    position: relative;
+
+}
+
+.home_img {
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
+    margin-inline: auto;
+    display: block;
+
+}
+
+.home-text {
+    text-align: center;
+    font-size: 20px;
+    color: #FEFBF6;
+    padding-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.swiper-pagination {
+    margin-bottom: -50px;
+
+}
+
+/*Swiper class */
+/* .swiper{
+  margin: inherit;
+  
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    position: absolute;
+    bottom:  200px; 
+  
+}
+.swiper-pagination-bullet{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0; 
+  background-color: white;
+  opacity: 1;
+  transition: background-color .3s, width .3s ; 
+}
+.swiper-pagination-bullet-active{
+  width: 1.5rem;
+  background-color: white;
+}   */
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+    width: .6rem;
+    background-color: hsl(0, 19%, 95%);
+}
+
+::-webkit-scrollbar-thumb {
+    width: .6rem;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.feature {
+    width: 100%;
+    height: 42vh;
+
+}
+
+.feature-text {
+    text-align: center;
+    padding: 30px 0 50px 0;
+    font-size: 40px;
+    color: #292929;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.feature-text1 {
+    color: #841921;
+    border-bottom: 5px solid #FFBE0A;
+}
+
+.scroller {
+    width: 100%;
+    background-color: #FFBE0A;
+
+}
+
+.scroller-img1 {
+    border-radius: 50%;
+    width: 50%;
+    height: 20vh;
+    object-fit: cover;
+
+}
+
+.scroller__inner {
+    padding-block: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.scroller-img {
+    width: 50%;
+    height: 20vh;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg,
+            transparent,
+            white 20%,
+            white 80%,
+            transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* <!-- ==============================BLOG>>PART1 ======================================--> */
+.blog-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.blog-box {
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.blog-box1 {
+    width: 35%;
+    height: 10vh;
+    background-color: #841921;
+    margin-bottom: 10px;
+}
+
+.blog-box1 .blog-text {
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    padding: 25px 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blog-box2 .blog-para {
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    padding: 30px 40px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding: 30px 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blog-box2 {
+    width: 35%;
+    height: 36vh;
+    background-color: #841921;
+
+
+}
+
+.blog-box-right {
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    z-index: -11;
+}
+
+.blog-box-right .blog-box-right-img {
+    width: 100%;
+    height: 68vh;
+    object-fit: cover;
+}
+
+.blog-box3 {
+    text-align: center;
+    position: absolute;
+    left: 140px;
+    top: 420px;
+}
+
+.blog-box3 .blog-btn {
+    padding: 20px 70px 20px 70px;
+    background-color: #FFBE0A;
+    font-size: 18px;
+    color: #2c2b27;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: all .6s linear;
+}
+
+.blog-box3 .blog-btn:hover {
+    background-color: #292929;
+    color: #FFBE0A;
+}
+
+
+
+/* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+.blog-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.blog-box-left {
+    position: absolute;
+    left: 220px;
+    top: 100px;
+    z-index: -11;
+}
+
+.blog-box-left .blog-box-left-img {
+    width: 100%;
+    height: 68vh;
+    object-fit: cover;
+}
+
+.blog-bar {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+
+
+}
+
+.blog-bar1 {
+    width: 35%;
+    height: 10vh;
+    background-color: #FFBE0A;
+    margin-bottom: 10px;
+}
+
+.blog-bar1 .blog-text1 {
+    font-size: 25px;
+    color: #000;
+    text-align: left;
+    padding: 30px 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ 
+
+}
+
+.blog-bar2 {
+    width: 35%;
+    height: 27vh;
+    background-color: #FFBE0A;
+}
+
+.blog-bar2 .blog-bar-para1 {
+    font-size: 18px;
+    color: #292929;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding: 30px 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.blog-bar3 {
+
+    text-align: center;
+    position: absolute;
+    right: 120px;
+    top: 345px;
+}
+
+.blog-bar3 .blog-btn1 {
+    background-color: #841921;
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    color: #FEFBF6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: all .6s linear;
+}
+
+.blog-bar3 .blog-btn1:hover {
+    border: 3px solid #841921;
+    background: none;
+    color: #841921;
+}
+
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image:linear-gradient(to left,
+    rgba(40, 30, 30, 0.6),
+    rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+border-bottom: 5px solid #841921;
+border-top: 5px solid #841921;
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 35px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 60px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 30px 80px 30px 80px;
+    font-size: 20px;
+   color: #000;
+   margin-bottom: 60px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 22px;
+}
+.f-part1 .ficon{
+    font-size: 35px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #cdccc7;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 15vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 30px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.f-part2 .f-text2{
+    font-size: 18px;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+/* color: #292929;  */
+}
+
+
+@media (min-width:1100px) and (max-width:1400px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+    .nav-list1 ul li ul.drop-down {
+        left: 300px;
+        height: 15vh;
+        color: #fff;
+        display: none;
+        position: absolute;
+        background-color: rgba(95, 95, 95, 0.2);
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        padding-top: 20px;
+        padding-left: 10px;
+        width: 30%;
+        letter-spacing: normal;
+
+    }
+
+    ul li:hover ul.drop-down {
+        display: block;
+
+    }
+
+    .nav-text .nav-para {
+        font-size: 50px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 5vw 1vw;
+        height: 75vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 30px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 200px 25px 200px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 35px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 200px 105px 200px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 63%;
+        top: -30px;
+        left: 200px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 200px 0 200px;
+        font-size: 18px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 120px;
+        margin-top: 100px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 70px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 40vw;
+        width: 80%;
+        height: 70vh;
+        padding: 32px 30px 0 30px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 35px 100px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        /* padding: 40px; */
+        flex-wrap: wrap;
+        height: 40vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 500px;
+        bottom: 50px;
+        padding: 0 100px 0 100px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 260vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+
+
+        font-size: 35px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        width: 60%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 40px 10px 40px 10px;
+        width: 28%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 20px; */
+        padding: 0 260px 150px 260px;
+    }
+
+    .pack-img .pack-img1 {
+        width: 40%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 80%;
+        height: 105vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 38px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 60vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 14px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -50px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 42vh;
+
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 30px 0 50px 0;
+        font-size: 40px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 50%;
+        height: 20vh;
+    }
+
+    /* <!-- ==============================BLOG>>PART1 ======================================--> */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 100px;
+        top: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 38%;
+        height: 12vh;
+        background-color: #841921;
+        margin-bottom: 10px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 25px;
+        color: #fff;
+        text-align: left;
+        padding: 25px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .blog-box2 {
+        width: 38%;
+        height: 40vh;
+        background-color: #841921;
+
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        left: 450px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 120%;
+        height: 72vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        padding-top: 22px;
+        position: absolute;
+        left: 80px;
+        top: 460px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 20px 70px 20px 70px;
+        background-color: #FFBE0A;
+        font-size: 18px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 100%;
+        height: 68vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 100px;
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 39%;
+        height: 12vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 25px;
+        color: #000;
+        text-align: left;
+        padding: 25px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 39%;
+        height: 27vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 15px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 30px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+
+        text-align: center;
+        /* padding-top: 10px; */
+        position: absolute;
+        right: 80px;
+        top: 350px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 20px 40px 20px 40px;
+        font-size: 18px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 35px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 36px 80px 36px 80px;
+    font-size: 20px;
+   color: #000;
+   margin-bottom: 50px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 22px;
+}
+.f-part1 .ficon{
+    font-size: 35px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.f-part2 .f-text2{
+    font-size: 16px;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+}
+
+@media (min-width:992px) and (max-width:1100.99px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        /* display: none; */
+    }
+
+    .nav-text .nav-para {
+        font-size: 50px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .nav-list1 ul li ul.drop-down {
+        left: 250px;
+        height: 14vh;
+        color: #fff;
+        display: none;
+        position: absolute;
+        background-color: rgba(95, 95, 95, 0.2);
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        padding-top: 20px;
+        padding-left: 10px;
+        width: 34%;
+        letter-spacing: normal;
+
+    }
+
+    ul li:hover ul.drop-down {
+        display: block;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 5vw 1vw;
+        height: 65vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 25px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 200px 25px 200px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 30px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 100px 65px 100px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 80%;
+        top: -40px;
+        left: 100px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 100px 0 100px;
+        font-size: 18px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 165vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 120px;
+        margin-top: 100px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 70px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 40vw;
+        width: 80%;
+        height: 75vh;
+        padding: 32px 30px 0 30px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 28px 90px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        /* padding: 40px; */
+        flex-wrap: wrap;
+        height: 40vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 500px;
+        bottom: 50px;
+        padding: 0 80px 0 80px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 250vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+
+
+        font-size: 35px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        width: 75%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 40px 10px 40px 10px;
+        width: 28%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* gap: 20px; */
+        padding: 0 205px 150px 205px;
+    }
+
+    .pack-img .pack-img1 {
+        width: 40%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+    /* .pack-img .pack-img1 {
+        width: 40%;
+        height: 30vh;
+        object-fit: cover;
+
+    } */
+
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 80%;
+        height: 105vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 38px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 60vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 15px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -50px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 42vh;
+
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 30px 0 50px 0;
+        font-size: 40px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 50%;
+        height: 20vh;
+    }
+
+    /* <!-- ==============================BLOG>>PART1 ======================================--> */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 100px;
+        top: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 30%;
+        height: 9vh;
+        background-color: #841921;
+        margin-bottom: 10px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 22px;
+        color: #fff;
+        text-align: left;
+        padding: 18px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 13px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .blog-box2 {
+        width: 30%;
+        height: 40vh;
+        background-color: #841921;
+
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        left: 300px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 130%;
+        height: 75vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 20px;
+        top: 420px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 45px 10px 45px;
+        background-color: #FFBE0A;
+        font-size: 15px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 100%;
+        height: 65vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 100px;
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 39%;
+        height: 12vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 25px;
+        color: #000;
+        text-align: left;
+        padding: 25px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 39%;
+        height: 31vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 15px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 30px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+
+        text-align: center;
+        position: absolute;
+        right: 80px;
+        top: 375px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 30px 10px 30px;
+        font-size: 18px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 35px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 36px 80px 36px 80px;
+    font-size: 20px;
+   color: #000;
+   margin-bottom: 50px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 22px;
+}
+.f-part1 .ficon{
+    font-size: 35px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.f-part2 .f-text2{
+    font-size: 16px;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+
+}
+
+@media (min-width:776px) and (max-width:991.99px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+    .nav-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        display: block;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 48px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 5vw 1vw;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 25px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 200px 25px 200px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 30px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 100px 65px 100px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 80%;
+        top: -40px;
+        left: 100px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 100px 0 100px;
+        font-size: 18px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 80px;
+        margin-top: 140px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 50px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 45vw;
+        width: 80%;
+        height: 85vh;
+        padding: 28px 30px 0 30px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 28px 90px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px;
+        /* flex-wrap: wrap; */
+        height: 40vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 40px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 18px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 40px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 300px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 275vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+
+
+        font-size: 30px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        width: 75%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 20px 10px 20px 10px;
+        width: 28%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 100px 0;
+    }
+
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 80%;
+        height: 95vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 60vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 15px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -50px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 42vh;
+
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 40px 0 40px 0;
+        font-size: 30px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 50%;
+        height: 20vh;
+    }
+
+    /* <!-- ==============================BLOG>>PART1 ======================================--> */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 100px;
+        top: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 38%;
+        height: 9vh;
+        background-color: #841921;
+        margin-bottom: 10px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 22px;
+        color: #fff;
+        text-align: left;
+        padding: 18px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 13px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .blog-box2 {
+        width: 38%;
+        height: 38vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        left: 300px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 140%;
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 20px;
+        top:406px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 45px 10px 45px;
+        background-color: #FFBE0A;
+        font-size: 15px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 90%;
+        height: 65vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 39%;
+        height: 12vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 22px;
+        color: #000;
+        text-align: left;
+        padding: 25px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 39%;
+        height: 31vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 13px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 30px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+
+        text-align: center;
+        position: absolute;
+        right: 80px;
+        top:372px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 30px 10px 30px;
+        font-size: 15px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 30px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 20px 60px 20px 60px;
+    font-size: 20px;
+   color: #000;
+   margin-bottom: 50px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 30px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.f-part2 .f-text2{
+    font-size: 16px;
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:775.98px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 90vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 200px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        display: block;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 32px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 400px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a {
+        font-size: 30px;
+        color: #ffff;
+        padding-left: 120px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 5vw .3vw;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 20px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 100px 25px 100px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 25px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 40px 65px 40px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 77%;
+        top: -40px;
+        left: 60px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 60px 0 60px;
+        font-size: 17px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 195vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 50px;
+        margin-top: 100px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 50px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 60vw;
+        width: 80%;
+        height: 110vh;
+        padding: 28px 30px 0 30px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 28px 90px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 30px;
+        flex-wrap: wrap;
+        height: 60vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 50px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 238vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+
+        font-size: 22px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 78%;
+        padding-bottom: 20px;
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 15px;
+        width: 78%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 100px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 20px 10px 20px 10px;
+        width: 38%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0px 100px 0px;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 80%;
+        height: 60vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 30vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 15px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -30px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 42vh;
+        /* background-color: #841921; */
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 40px 0 40px 0;
+        font-size: 30px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 50%;
+        height: 20vh;
+    }
+
+    /* <!-- ==============================BLOG>>PART1 ======================================--> */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        height: 9vh;
+        background-color: #841921;
+        margin-bottom: 80px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 22px;
+        color: #fff;
+        text-align: left;
+        padding: 18px 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 15px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .blog-box2 {
+
+        width: 77%;
+        height: 33vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        left: 120px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 155%;
+        height: 25vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 165px;
+        top: 436px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 55px 10px 55px;
+        background-color: #FFBE0A;
+        font-size: 16px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 100px;
+        top: 0;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 90%;
+        height: 35vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 40px;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 39%;
+        height: 15vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 22px;
+        color: #000;
+        text-align: left;
+        padding: 25px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 39%;
+        height: 45vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 13px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+
+        text-align: center;
+        position: absolute;
+        right: 30px;
+        top: 515px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 30px 10px 30px;
+        font-size: 15px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 22px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 20px 60px 20px 60px;
+    font-size: 18px;
+   color: #000;
+   margin-bottom: 60px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 22px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 10px;
+    padding-bottom: 18px;
+}
+.f-part2 .f-text2{
+    font-size: 13px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+
+
+
+}
+
+@media (min-width:410px) and (max-width:576px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 90vh;
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 20px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 25px;
+        color: #ffff;
+        padding-left: 90px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 120px;
+        right: 40px;
+        display: block;
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 7vw .3vw;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 20px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 100px 25px 100px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 25px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 40px 65px 40px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 70%;
+        top: -40px;
+        left: 60px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 60px 0 60px;
+        font-size: 17px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 50px;
+        margin-top: 40px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 40px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 50vw;
+        width: 80%;
+        height: 122vh;
+        padding: 20px 20px 0 20px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 20px 50px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+        flex-wrap: wrap;
+        height: 60vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 40px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 40px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 210vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+        font-size: 18px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 85%;
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        width: 80%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 20px 10px 20px 10px;
+        width: 48%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 100px 0;
+    }
+
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 80%;
+        height: 65vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 30vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 15px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -30px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 42vh;
+        /* background-color: #841921; */
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 40px 0 40px 0;
+        font-size: 22px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 50%;
+        height: 20vh;
+    }
+
+    /* <!-- ==============================BLOG>>PART1 ======================================--> */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 50px;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 40%;
+        height: 7vh;
+        background-color: #841921;
+        margin-bottom: 40px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 18px;
+        color: #fff;
+        text-align: left;
+        padding: 12px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 13px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .blog-box2 {
+
+        width: 77%;
+        height: 34vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        right: 100px;
+        top: 100px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 115%;
+        height: 25vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 65px;
+        top: 390px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 45px 10px 45px;
+        background-color: #FFBE0A;
+        font-size: 16px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 80px;
+        top: 0;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 90%;
+        height: 35vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 70px;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 45%;
+        height: 13vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 18px;
+        color: #000;
+        text-align: left;
+        padding: 22px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 65%;
+        height: 42vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 13px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        top: 480px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 20px 10px 20px;
+        font-size: 15px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 22px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 20px 60px 20px 60px;
+    font-size: 18px;
+   color: #000;
+   margin-bottom: 60px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 22px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 10px;
+    padding-bottom: 18px;
+}
+.f-part2 .f-text2{
+    font-size: 13px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+
+}
+
+@media (min-width:300px) and (max-width:410px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo .menu {
+        font-size: 20px;
+        color: aliceblue;
+
+    }
+
+    .nav-part {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    header {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .nav-logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 25px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .nav-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 20px;
+        color: #ffff;
+        padding-left: 90px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 100px;
+        right: 40px;
+        display: block;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 5vw .1vw;
+        height: 55vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 18px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 8px 20px 8px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 20.60px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 5px 60px 5px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 82%;
+        top: -20px;
+        left: 30px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 30px 0 30px;
+        font-size: 14px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 30px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 40vw;
+        width: 85%;
+        height: 110vh;
+        padding: 20px 20px 0 20px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 10px 30px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+        flex-wrap: wrap;
+        height: 60vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 20px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 15px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 220vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+        font-size: 18px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 85%;
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        width: 80%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 10px 10px 10px 10px;
+        width: 55%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0px 100px 0px;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 85%;
+        height: 65vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 80%;
+        height: 30vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 12px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -30px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 48vh;
+        /* background-color: #841921; */
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 40px 0 40px 0;
+        font-size: 20px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 95%;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 5px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 40%;
+        height: 18vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 40%;
+        height: 18vh;
+    }
+
+    /* ===============blog-part================= */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 40%;
+        height: 7vh;
+        background-color: #841921;
+        margin-bottom: 40px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 18px;
+        color: #fff;
+        text-align: left;
+        padding: 12px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 10px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .blog-box2 {
+
+        width: 77%;
+        height: 32vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 80%;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 65px;
+        top: 370px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 45px 10px 45px;
+        background-color: #FFBE0A;
+        font-size: 12px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 30px;
+        top: 0;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 90%;
+        height: 35vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 30px;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 65%;
+        height: 13vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 18px;
+        color: #000;
+        text-align: left;
+        padding: 22px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 75%;
+        height: 40vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 12px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        top: 456px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 20px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+   color: #000;
+   margin-bottom: 40px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 18px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 9px;
+    padding-bottom: 18px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text2{
+    font-size: 10px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+}
+
+@media (min-width:280px) and (max-width:300px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo .menu {
+        font-size: 20px;
+        color: aliceblue;
+
+    }
+
+    .nav-part {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    header {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 15px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .nav-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 20px;
+        color: #ffff;
+        padding-left: 90px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 80px;
+        right: 40px;
+        display: block;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 7vw .1vw;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 17px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 8px 20px 8px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 19px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 2px 60px 2px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 82%;
+        top: -20px;
+        left: 30px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 30px 0 30px;
+        font-size: 14px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 20px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 40vw;
+        width: 85%;
+        height: 90vh;
+        padding: 20px 20px 0 20px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 20px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 10px 30px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 10px;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+        flex-wrap: wrap;
+        height: 60vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 15px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 12px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 200vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+        font-size: 18px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 85%;
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        width: 80%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 10px 10px 10px 10px;
+        width: 55%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 100px 0;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 85%;
+        height: 45vh;
+        /* padding: 0 50px 0 50px; */
+
+    }
+
+    .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 78%;
+        height: 20vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 10px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -30px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 40vh;
+
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 40px 0 40px 0;
+        font-size: 15px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 95%;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 3px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 20%;
+        height: 12vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 20%;
+        height: 12vh;
+    }
+
+    /* ===============blog-part================= */
+    .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 65vh;
+
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 28px;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 40%;
+        height: 6vh;
+        background-color: #841921;
+        margin-bottom: 60px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 18px;
+        color: #fff;
+        text-align: left;
+        padding: 12px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 10px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .blog-box2 {
+
+        width: 77%;
+        height: 35vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 80%;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left: 50px;
+        top: 406px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 30px 10px 30px;
+        background-color: #FFBE0A;
+        font-size: 12px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    }
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+    .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 30px;
+        top: 0;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 90%;
+        height: 35vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 10px;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 65%;
+        height: 13vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 18px;
+        color: #000;
+        text-align: left;
+        padding: 22px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 75%;
+        height: 40vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 12px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 20px 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        top: 460px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    }
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 20px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+   color: #000;
+   margin-bottom: 40px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 18px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 13vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 9px;
+    padding-bottom: 18px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text2{
+    font-size: 10px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+
+
+
+}
+
+@media (min-width:200px) and (max-width:280px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .nav-logo .menu {
+        font-size: 20px;
+        color: aliceblue;
+
+    }
+
+    .nav-part {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    header {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 15px;
+        text-align: center;
+        color: #ffff;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    .nav-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 18px;
+        color: #ffff;
+        padding-left:110px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        display: block;
+
+    }
+
+    /* ==========<!--========================= main-part  =========================-->======== */
+    .main-text {
+        padding: 8vw .1vw;
+        height: 42vh;
+        width: 100%;
+    }
+
+    .main-text-sub1 .main-text1 {
+        text-align: center;
+        font-size: 13px;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 8px 20px 8px;
+    }
+
+    .main-text-sub1 .main-text2 {
+        text-align: center;
+        font-size: 16px;
+        color: hsla(0, 0%, 16.08%, 1);
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 0 2px 60px 2px;
+    }
+
+    .main-text-sub1 .main-text2 .main-text3 {
+        color: hsla(355.51, 68.15%, 30.78%);
+    }
+
+    .main-text-sub2 {
+        position: relative;
+    }
+
+    .main-text-sub2::after {
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 85%;
+        top: -20px;
+        left: 15px;
+    }
+
+    .main-text-sub2 .main-para1 {
+
+        text-align: left;
+        padding: 0 15px 0 15px;
+        font-size: 10px;
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-bottom: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ========================about====================== */
+
+    .about {
+        background: url("/img_SD_PHOTO/logo/alternative-yorkshire-wedding-photographer-3.jpg")no-repeat center center/cover;
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .about-text .about-text1 {
+        font-size: 18px;
+        color: hsla(3.75, 80%, 98.04%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .about-text .about-text2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #FFBE0A;
+    }
+
+    .story {
+        margin-top: 40vw;
+        width: 90%;
+        height: 90vh;
+        padding: 10px 10px 0 10px;
+        /* background: #2c2b27; */
+        background: #29292978;
+    }
+
+    .story-text .story-text1 {
+        color: #FFBE0A;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-text .para-story {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-part .story-part1 {
+        color: #FFBE0A;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-part .story-part2 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-part .story-part3 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-part .story-part4 {
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+
+    .story-button {
+        padding-top: 60px;
+    }
+
+    .story-button .story-btn {
+        padding: 10px 20px;
+        background-color: #FFBE0A;
+        color: hsla(0, 0%, 16.08%, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 10px;
+    }
+
+    .story-button .story-btn .arrow {
+        color: hsla(0, 0%, 16.08%, 1);
+        padding-left: 10px;
+    }
+
+    /* =========<!--==================== Number-counting =================-->======== */
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+        flex-wrap: wrap;
+        height: 60vh;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container .num {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .text {
+        font-size: 20px;
+        text-align: center;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .container .num1 {
+        font-size: 30px;
+        text-align: center;
+        color: #841921;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+
+    /*=============<!--====================moments-part===================================-->==============*/
+
+    .moments {
+        background: url("/img_SD_PHOTO/logo/creative-alternative-fun-wedding-photography-yorkshire1.jpg");
+        width: 100%;
+        height: 60vh;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .moments-text {
+        position: absolute;
+        left: 0px;
+        bottom: 50px;
+        padding: 0 50px 0 50px;
+
+
+    }
+
+    .moments-text .moments-text1 {
+        font-size: 15px;
+        text-align: justify;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .moments-text .moments-text2 {
+        font-size: 12px;
+        text-align: right;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+        border-top: 2px solid #FFBE0A;
+        padding-top: 15px;
+    }
+
+    /* <!-- =============================package================================ -->  */
+
+    .pack {
+        width: 100%;
+        height: 220vh;
+        padding-top: 80px;
+    }
+
+    .pack-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack-text .pack-text1 {
+        font-size: 15px;
+        border-bottom: 5px solid #FFBE0A;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 85%;
+    }
+
+    .pack-text .pack-text2 {
+        text-align: left;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12px;
+        width: 80%;
+        padding: 70px 0 0 0;
+        letter-spacing: 1.5px;
+    }
+
+    .pack-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 150px 0;
+
+    }
+
+    .pack-btn .pack-btn1 {
+        padding: 10px 10px 10px 10px;
+        width: 65%;
+        text-align: center;
+        background: #841921;
+        color: #FEFBF6;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        transition: color 0.3s;
+    }
+
+    .pack-btn .pack-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+     
+        padding: 0 0px 100px 0px;
+    }
+
+   
+
+     .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .pack-box {
+        margin: auto;
+        background-color: #841921;
+        width: 85%;
+        height: 45vh;
+        
+
+    } 
+
+     .pack-box .pack-box-text {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pack-box .pack-box-text .pack-box-text1 {
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #FEFBF6;
+    }
+
+    .home__images {
+        position: relative;
+
+    }
+
+    .home_img {
+        width: 78%;
+        height: 20vh;
+        object-fit: cover;
+        margin-inline: auto;
+        display: block;
+
+    }
+
+    .home-text {
+        text-align: center;
+        font-size: 10px;
+        color: #FEFBF6;
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+
+
+    }
+
+    .swiper-pagination {
+        margin-bottom: -30px;
+
+    }
+
+    .feature {
+        width: 100%;
+        height: 40vh;
+       
+
+    }
+
+    .feature-text {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        font-size: 15px;
+        color: #292929;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        width: 95%;
+    }
+
+    .feature-text1 {
+        color: #841921;
+        border-bottom: 3px solid #FFBE0A;
+    }
+
+    .scroller {
+        width: 100%;
+        background-color: #FFBE0A;
+
+    }
+
+    .scroller-img1 {
+        border-radius: 50%;
+        width: 20%;
+        height: 12vh;
+        object-fit: cover;
+
+    }
+
+    .scroller__inner {
+        padding-block: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .scroller-img {
+        width: 20%;
+        height: 12vh;
+    } 
+
+    /* ===============blog-part================= */
+     .blog-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 68vh;
+
+    }
+
+    .blog-box {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .blog-box1 {
+        width: 50%;
+        height: 5vh;
+        background-color: #841921;
+        margin-bottom: 60px;
+    }
+
+    .blog-box1 .blog-text {
+        font-size: 12px;
+        color: #fff;
+        text-align: left;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blog-box2 .blog-para {
+        font-size: 9px;
+        color: #fff;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 10px;
+        padding: 10px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    .blog-box2 {
+        width: 90%;
+        height: 36vh;
+        background-color: #841921;
+
+    }
+
+    .blog-box-right {
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        z-index: -11;
+    }
+
+    .blog-box-right .blog-box-right-img {
+        width: 80%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .blog-box3 {
+        text-align: center;
+        position: absolute;
+        left:5px;
+        top: 405px;
+    }
+
+    .blog-box3 .blog-btn {
+        padding: 10px 20px 10px 20px;
+        background-color: #FFBE0A;
+        font-size: 12px;
+        color: #2c2b27;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-box3 .blog-btn:hover {
+        background-color: #292929;
+        color: #FFBE0A;
+    } 
+
+    /* <!-- ==============================BLOG>>PART2 ======================================--> */
+
+     .blog-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 68vh;
+    }
+
+    .blog-box-left {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        z-index: -11;
+    }
+
+    .blog-box-left .blog-box-left-img {
+        width: 80%;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .blog-bar {
+        position: absolute;
+        right: 30px;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+
+
+    }
+
+    .blog-bar1 {
+        width: 65%;
+        height: 9vh;
+        background-color: #FFBE0A;
+        margin-bottom: 10px;
+    }
+
+    .blog-bar1 .blog-text1 {
+        font-size: 12px;
+        color: #000;
+        text-align: left;
+        padding: 17px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal
+    }
+
+    .blog-bar2 {
+        width: 75%;
+        height: 32vh;
+        background-color: #FFBE0A;
+    }
+
+    .blog-bar2 .blog-bar-para1 {
+        font-size: 9px;
+        color: #292929;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        padding: 17px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .blog-bar3 {
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        top: 355px;
+    }
+
+    .blog-bar3 .blog-btn1 {
+        background-color: #841921;
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .6s linear;
+    }
+
+    .blog-bar3 .blog-btn1:hover {
+        border: 3px solid #841921;
+        background: none;
+        color: #841921;
+    } 
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+ .f-part1 {
+    background-image: url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 15px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 50px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 10px 40px 10px 40px;
+    font-size: 10px;
+   color: #000;
+   margin-bottom: 40px;
+}
+.f-part1 .f-btn:hover{
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+.f-part1 .f-icons{
+    display: flex;
+    gap: 20px;
+}
+.f-part1 .ficon{
+    font-size: 18px;
+    color: #FEFBF6;
+}
+.f-part1 .ficon:hover{
+    color: #2c2b27;
+}
+.f-part2{
+    background-color: #292929;
+    width: 100%;
+    height: 18vh;
+}
+.f-part2 .f-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 20px 0 20px 0;
+}
+.f-part2 .f-text1{
+    font-size: 9px;
+    padding-bottom: 20px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text2{
+    font-size: 10px;
+    width: 80%; 
+    text-align: center;
+}
+.f-part2 .f-text3{
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+.f-part2 .f-text3:hover{
+color: #FFBE0A;
+}
+} 

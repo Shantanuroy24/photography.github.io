@@ -1,0 +1,4544 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: hsla(0, 24%, 93%, 0.27);
+}
+
+/* ==========================header-part========================== */
+header {
+    background: linear-gradient(to left,
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Fun-Alternative-Skater-Couple-Confetti-Wedding-Photographer.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    border-bottom: 6px solid #841921;
+}
+
+.nav-part {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo .menu {
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.menu-bar {
+    display: none;
+}
+
+.nav-list2 .slider {
+    position: fixed;
+    width: 500px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgba(95, 95, 95, 0.2);
+    z-index: 2;
+    box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 120px;
+    display: none;
+    gap: 20px;
+
+
+}
+
+.nav-list2 .slider .slider-bar:hover {
+
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 3.8vh;
+
+}
+
+.nav-list2 ul li a {
+    font-size: 30px;
+    color: #ffff;
+    padding-left: 170px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.nav-list2 ul li .close {
+    font-size: 40px;
+    padding: 0px 0 60px 0px;
+}
+
+.nav-logo img {
+    width: 100%;
+    height: 30vh;
+}
+
+.nav-list1 a {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.nav-list1 a:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(248, 245, 245, 0.641);
+    height: 2px;
+    width: 0;
+    left: 0px;
+    bottom: 0px;
+    transition: 1s;
+}
+
+.nav-list1 a:hover:after {
+    width: 100%;
+}
+
+
+.nav-list1 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav-list1 ul li a {
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px;
+    gap: 20px;
+}
+
+.nav-text .nav-para {
+    font-size: 100px;
+    text-align: center;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.nav-text .nav-para1 {
+    font-size: 70px;
+    text-align: center;
+    color: #FFBE0A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+/* main==================.....================part */
+
+.main-part {
+    padding-top: 50px;
+    width: 100%;
+    height: 78vh;
+}
+
+.main-part .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-text .main-text1 {
+    font-size: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #841921;
+
+}
+
+.main-sub {
+    color: #FFBE0A;
+
+}
+
+.main-text .main-para {
+    font-size: 18px;
+    width: 41.6%;
+    padding: 80px 0 50px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: #292929;
+    /* #2c2b27 */
+}
+
+.main-text2 {
+    font-size: 18px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: #841921;
+
+}
+
+/* =======main-img========== */
+.main-img1 {
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* object-fit: cover; */
+    object-fit: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    border-top: 7px solid #841921;
+    border-bottom: 7px solid #FEFBF6;
+}
+
+.main-img-t {
+    /* position: absolute;
+    left: 980px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 420px 100px 0px 0;
+}
+
+.main-img-t1 {
+    font-size: 15px;
+    width: 40%;
+    text-align: justify;
+    border-bottom: 1px solid #FFBE0A;
+    padding-bottom: 20px;
+    color: #FEFBF6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+
+
+.main-img-t3 {
+    color: #FEFBF6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 40%;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.main-img {
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, .6),
+            rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* object-fit: cover; */
+    object-fit: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    border-top: 7px solid #841921;
+    border-bottom: 7px solid #FFBE0A;
+}
+
+.main-img-text {
+    /* position: absolute;
+    left: 980px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 420px 100px 0px 0;
+}
+
+.main-img-text .main-img-text1 {
+    font-size: 15px;
+    width: 40%;
+    text-align: justify;
+    border-bottom: 1px solid #FFBE0A;
+    padding-bottom: 20px;
+    color: #FEFBF6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+
+
+.main-img-text3 {
+    color: #FEFBF6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 40%;
+    text-align: right;
+    padding-top: 50px;
+}
+
+/* ============ <!-- DEAL++part -->================ */
+.deal-part {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.deal-main .deal-main-text {
+    font-size: 80px;
+    padding-bottom: 70px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.deal-main-text1 {
+    color: #841921;
+    border-bottom: 7px solid #FFBE0A;
+}
+
+.deal-part .deal-main,
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.deal-part .deal-text1 {
+    text-align: justify;
+    width: 70%;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.deal-star1 {
+    padding-right: 10px;
+    color: #841921;
+
+}
+
+.deal-star2 {
+    padding-right: 10px;
+    color: #FFBE0A;
+
+}
+
+.deal-sub {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* ===================packges=====part */
+
+.pack {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #841921;
+    border-top: 5px solid #FEFBF6;
+    border-bottom: 8px solid #FFBE0A;
+}
+
+.pack-text {
+    font-size: 130px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FEFBF6;
+}
+
+.pack-text1 {
+    color: #FFBE0A;
+}
+
+/* <!-- ==================pack-deal================ --> */
+.main-pack {
+    width: 100%;
+    height: 130vh;
+    /* background-color: #841921;   */
+}
+
+.pack-deal {
+    padding-top: 50px;
+    height: 70vh;
+}
+
+.pack-deal-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.pack-deal-text1 {
+    text-align: center;
+    font-size: 40px;
+    color: #841921;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+
+}
+
+.pack-text-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 100px 0 100px;
+
+}
+
+.pack-textp1 {
+    width: 20%;
+    height: 42vh;
+    border: 1px solid #292929;
+    padding: 50px 20px 50px 20px;
+
+}
+
+.pack-text-p1 {
+    font-size: 20px;
+    color: #841921;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.pack-text-sub .pack-text-sub1 {
+    font-size: 12px;
+    color: #292929;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+.pack-text-sub .pack-text-sub1:hover {
+    color: #841921;
+}
+
+.pack-sub {
+    color: #FFBE0A;
+}
+
+.pack-icon {
+    color: #841921;
+    padding-right: 20px;
+}
+
+.pack-icon1 {
+    color: #FFBE0A;
+    padding-right: 20px;
+}
+
+
+
+
+/* .pack-img{
+    width: 100%;
+    height: 30vh;
+    padding-top: 50px;
+
+}
+.pack-img .pack-part-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 50px 10px;
+}
+
+.pack-img .pack-img1 {
+    width: 100%;
+    height:32vh;
+
+} */
+
+/* ==============================   <!-- ==========footer-part============= -->========================= */
+.f-part1 {
+    background-image: linear-gradient(to left,
+            rgba(40, 30, 30, 0.6),
+            rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+
+}
+
+.f-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-part1 .f-part-text {
+    font-size: 35px;
+    text-align: center;
+    color: #FEFBF6;
+    padding-bottom: 60px;
+}
+
+.f-part1 .f-btn {
+    text-align: center;
+    background-color: #FFBE0A;
+    padding: 30px 80px 30px 80px;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 60px;
+}
+
+.f-part1 .f-btn:hover {
+    background-color: #000;
+    color: #FFBE0A;
+
+}
+
+.f-part1 .f-icons {
+    display: flex;
+    gap: 22px;
+}
+
+.f-part1 .ficon {
+    font-size: 35px;
+    color: #FEFBF6;
+}
+
+.f-part1 .ficon:hover {
+    color: #cdccc7;
+}
+
+.f-part2 {
+    background-color: #292929;
+    width: 100%;
+    height: 15vh;
+}
+
+.f-part2 .f-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFBF6;
+    padding: 30px 0 20px 0;
+}
+
+.f-part2 .f-text1 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.f-part2 .f-text2 {
+    font-size: 18px;
+}
+
+.f-part2 .f-text3 {
+    border-bottom: 2px solid #FEFBF6;
+    transition: all .6s ease;
+}
+
+.f-part2 .f-text3:hover {
+    color: #FFBE0A;
+    /* color: #292929;  */
+}
+
+.home {
+    width: 100%;
+    height: 80vh;
+
+}
+
+.home .home-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.home-text .home-text1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #841921;
+}
+
+.home-box {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 25px;
+}
+
+.home-box1 {
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+    height: 42vh;
+    border: 2px solid #292929;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.home-box1 .home-box-text1 {
+    font-size: 20px;
+    color: #841921;
+}
+
+.home-box-text {
+    font-size: 15px;
+}
+
+.home-sub {
+    color: #FFBE0A;
+}
+
+.home-icon1 {
+    color: #FFBE0A;
+    padding-right: 10px;
+}
+
+.home-icon {
+    color: #841921;
+    padding-right: 10px;
+}
+.pack-img .pack-part-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px 100px 200px;
+}
+
+.pack-img .pack-img1 {
+    width: 100%;
+    height: 32vh;
+
+}
+
+
+
+
+.wed-box{
+    width: 100%;
+    height: 60vh;
+   
+}
+.wed-box .wed-box-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px 0 200px;
+}
+.wed-box-text{
+    font-size: 50px;
+    color: #292929;
+    padding-bottom: 50px;
+}
+.wed-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.wed-main .wed-main-box1{
+    background-color: #841921;
+    width: 50%;
+    height: 30vh;
+    border-radius: 2px 2px;
+}
+
+
+.box-text{
+    color: #FEFBF6;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.box-para{
+    color: #FEFBF6;
+    font-size: 12px;
+    text-align: justify;
+  padding: 0 40px 0 40px;
+}
+@media (min-width:1100px) and (max-width:1400px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+
+    .nav-text .nav-para {
+        font-size: 65px;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 50px;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 35px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 36px 80px 36px 80px;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 50px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 22px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 35px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 16px;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 82vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 55px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 18px;
+        width: 55%;
+        padding: 80px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 18px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 15px;
+        width: 40%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 40%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 15px;
+        width: 40%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 40%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 110vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 60px;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 130px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+    
+    .home {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 40px;
+        padding-bottom: 50px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 20px 30px 20px 30px;
+        width: 100%;
+        height: 50vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 20px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 20px; */
+        padding: 0 260px 150px 260px;
+    }
+
+    .pack-img .pack-img1 {
+        width: 40%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 60vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px 0 50px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 50px;
+    }
+    .wed-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 60%;
+        height: 35vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 18px;
+        text-align: center;
+        /* padding: 10px 0 10px 0; */
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 12px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+ 
+}
+
+@media (min-width:992px) and (max-width:1100.99px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        /* display: none; */
+    }
+
+    .nav-text .nav-para {
+        font-size: 6vw;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 5vw;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 35px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 36px 80px 36px 80px;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 50px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 22px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 35px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 16px;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 82vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 55px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 18px;
+        width: 55%;
+        padding: 80px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 18px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 15px;
+        width: 40%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 40%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 15px;
+        width: 40%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 40%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 110vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 60px;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 100px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+    
+
+    .home {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 40px;
+        padding-bottom: 50px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 10px 20px 10px 20px;
+        width: 100%;
+        height: 45vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 20px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* gap: 20px; */
+        padding: 0 205px 150px 205px;
+    }
+
+    .pack-img .pack-img1 {
+        width: 40%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 60vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px 0 50px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 50px;
+    }
+    .wed-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 60%;
+        height: 35vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 18px;
+        text-align: center;
+        /* padding: 10px 0 10px 0; */
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 12px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+}
+
+@media (min-width:776px) and (max-width:991.99px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 300px;
+    }
+
+    .nav-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav-text {
+        padding: 50px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        display: block;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text .nav-para {
+        font-size: 6vw;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 5vw;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 30px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 20px 60px 20px 60px;
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 50px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 30px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 82vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 48px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 18px;
+        width: 65%;
+        padding: 80px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 18px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 15px;
+        width: 60%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 15px;
+        width: 60%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 110vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 60px;
+        padding-bottom: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 100px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+  
+    .pack-img .pack-img1 {
+        width: 40%;
+        height: 35vh;
+        object-fit: cover;
+
+    }
+
+    .home {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 40px;
+        padding-bottom: 50px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 10px 20px 10px 20px;
+        width: 30%;
+        height: 37vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 18px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 100px 0;
+    }
+
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 90vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px 0 40px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 50px;
+    }
+    .wed-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 20%;
+        height: 35vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 18px;
+        text-align: center;
+        /* padding: 10px 0 10px 0; */
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 12px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:775.98px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 90vh;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 200px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        display: block;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text {
+        padding: 50px;
+    }
+
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 400px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a {
+        font-size: 30px;
+        color: #ffff;
+        padding-left: 120px;
+
+    }
+
+    .nav-text .nav-para {
+        font-size: 6vw;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 5vw;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 22px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 20px 60px 20px 60px;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 60px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 22px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 10px;
+        padding-bottom: 18px;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 13px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 82vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 16px;
+        width: 68%;
+        padding: 80px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 18px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 15px;
+        width: 60%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 420px 100px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 15px;
+        width: 60%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 12px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 110vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 40px;
+        padding-bottom: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+   
+
+    .home {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 30px;
+        padding-bottom: 50px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 10px 20px 10px 20px;
+        width: 30%;
+        height: 40vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 18px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0px 100px 0px;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px 0 40px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 40px;
+    }
+    .wed-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 80%;
+        height: 12vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 15px;
+        text-align: center;
+         padding: 10px 0 10px 0; 
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 12px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+}
+
+@media (min-width:410px) and (max-width:576px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+
+    .nav-logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .nav-text {
+        padding: 90px;
+    }
+
+
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 25px;
+        color: #ffff;
+        padding-left: 90px;
+
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 120px;
+        right: 40px;
+        display: block;
+    }
+
+    .nav-text .nav-para {
+        font-size: 6vw;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 5vw;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 22px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 20px 60px 20px 60px;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 60px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 22px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 10px;
+        padding-bottom: 18px;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 13px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 90vh;
+
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 6vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 16px;
+        width: 85%;
+        padding: 40px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 400px 0px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 15px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 11px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 400px 0px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 15px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 11px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 110vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 30px;
+        padding-bottom: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+   
+    
+    .home {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 5px 10px 5px 10px;
+        width: 60%;
+        height: 21vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 18px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 50px 0;
+    }
+
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+
+    .wed-box{
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px 0 20px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 20px;
+    }
+    .wed-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 80%;
+        height: 14vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 15px;
+        text-align: center;
+         padding: 10px 0 10px 0; 
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 12px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:410px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo .menu {
+        font-size: 20px;
+        color: aliceblue;
+
+    }
+
+    .nav-part {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    header {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .nav-logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+
+    .nav-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 20px;
+        color: #ffff;
+        padding-left: 90px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 100px;
+        right: 40px;
+        display: block;
+
+    }
+
+    .nav-text .nav-para {
+        font-size: 6vw;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 5vw;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 20px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 10px 40px 10px 40px;
+        font-size: 15px;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 18px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 9px;
+        padding-bottom: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 6vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 14px;
+        width: 85%;
+        padding: 40px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 14px;
+        width: 80%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 12px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 10px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+        left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 12px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 10px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 22px;
+        padding-bottom: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+   
+
+    .home {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 0px 10px 5px 10px;
+        width: 80%;
+        height: 18vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 15px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0px 50px 0px;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 20px;
+    }
+    .wed-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 90%;
+        height: 14vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 15px;
+        text-align: center;
+         padding: 10px 0 10px 0; 
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 10px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+}
+
+@media (min-width:280px) and (max-width:300px) {
+
+    /* >>>>>>>>>>>>>>header-part<<<<<<<<<<<<<<<<< */
+
+    header {
+        background-attachment: fixed;
+    }
+
+    .nav-logo .menu {
+        font-size: 20px;
+        color: aliceblue;
+
+    }
+
+    .nav-part {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    header {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-list1 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+
+
+    .nav-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .nav-list2 .slider {
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: rgba(95, 95, 95, 0.2);
+        z-index: 2;
+        box-shadow: -10px 0 10 rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding-top: 120px;
+        display: none;
+        gap: 20px;
+
+    }
+
+    .nav-list2 ul li a .close {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-list2 ul li a {
+        font-size: 20px;
+        color: #ffff;
+        padding-left: 90px;
+
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 80px;
+        right: 40px;
+        display: block;
+
+    }
+
+    .nav-text .nav-para {
+        font-size: 18px;
+        text-align: center;
+        color: #ffff;
+
+    }
+
+    .nav-text .nav-para1 {
+        font-size: 10px;
+        text-align: center;
+        color: #FFBE0A;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+
+
+    /* ==============================   <!-- ==========footer-part============= -->========================= */
+    .f-part1 {
+        background-image: linear-gradient(to left,
+                rgba(40, 30, 30, 0.6),
+                rgba(40, 30, 30, 0.6)), url("/img_SD_PHOTO/footerimg/Yorkshire-Festival-Wedding-Shoes.jpg");
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+
+    }
+
+    .f-part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-part1 .f-part-text {
+        font-size: 20px;
+        text-align: center;
+        color: #FEFBF6;
+        padding-bottom: 50px;
+    }
+
+    .f-part1 .f-btn {
+        text-align: center;
+        background-color: #FFBE0A;
+        padding: 10px 40px 10px 40px;
+        font-size: 15px;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    .f-part1 .f-btn:hover {
+        background-color: #000;
+        color: #FFBE0A;
+
+    }
+
+    .f-part1 .f-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .f-part1 .ficon {
+        font-size: 18px;
+        color: #FEFBF6;
+    }
+
+    .f-part1 .ficon:hover {
+        color: #2c2b27;
+    }
+
+    .f-part2 {
+        background-color: #292929;
+        width: 100%;
+        height: 13vh;
+    }
+
+    .f-part2 .f-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FEFBF6;
+        padding: 20px 0 20px 0;
+    }
+
+    .f-part2 .f-text1 {
+        font-size: 9px;
+        padding-bottom: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text2 {
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .f-part2 .f-text3 {
+        border-bottom: 2px solid #FEFBF6;
+        transition: all .6s ease;
+    }
+
+    .f-part2 .f-text3:hover {
+        color: #FFBE0A;
+    }
+
+    /* main==================.....================part */
+
+    .main-part {
+        padding-top: 50px;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .main-part .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-text .main-text1 {
+        font-size: 6vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #841921;
+        ;
+    }
+
+    .main-sub {
+        color: #FFBE0A;
+    }
+
+    .main-text .main-para {
+        font-size: 10px;
+        width: 85%;
+        padding: 30px 0 50px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #292929;
+        /* #2c2b27 */
+    }
+
+    .main-text2 {
+        font-size: 14px;
+        width: 80%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-style: normal;
+        color: #841921;
+
+    }
+
+    /* =======main-img========== */
+    .main-img1 {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/Lake-District-Farm-Wedding.jpg");
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FEFBF6;
+    }
+
+    .main-img-t {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0px 0px 0;
+    }
+
+    .main-img-t1 {
+        font-size: 12px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-t3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 10px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+
+    .main-img {
+        background-image: linear-gradient(to left,
+                rgba(0, 0, 0, .6),
+                rgba(0, 0, 0, .6)), url("/img_SD_PHOTO/pricing/South-Yorkshire-Farm-Festival-Wedding.jpg");
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* object-fit: cover; */
+        object-fit: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        position: relative;
+        border-top: 7px solid #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .main-img-text {
+        /* position: absolute;
+    left: 980px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0px 0px 0;
+    }
+
+    .main-img-text .main-img-text1 {
+        font-size: 12px;
+        width: 80%;
+        text-align: justify;
+        border-bottom: 1px solid #FFBE0A;
+        padding-bottom: 20px;
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+
+
+    .main-img-text3 {
+        color: #FEFBF6;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-size: 10px;
+        width: 60%;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    /* ============ <!-- DEAL++part -->================ */
+    .deal-part {
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    .deal-main .deal-main-text {
+        font-size: 22px;
+        padding-bottom: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .deal-main-text1 {
+        color: #841921;
+        border-bottom: 7px solid #FFBE0A;
+    }
+
+    .deal-part .deal-main,
+    .deal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .deal-part .deal-text1 {
+        text-align: justify;
+        width: 70%;
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    .deal-star1 {
+        padding-right: 10px;
+        color: #841921;
+
+    }
+
+    .deal-star2 {
+        padding-right: 10px;
+        color: #FFBE0A;
+
+    }
+
+    .deal-sub {
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    /* ===================packges=====part */
+
+    .pack {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #841921;
+        border-top: 5px solid #FEFBF6;
+        border-bottom: 8px solid #FFBE0A;
+    }
+
+    .pack-text {
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #FEFBF6;
+    }
+
+    .pack-text1 {
+        color: #FFBE0A;
+    }
+
+
+    .home {
+        width: 100%;
+        height: 90vh;
+
+    }
+
+    .home .home-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .home-text .home-text1 {
+        font-size: 18px;
+        padding-bottom: 30px;
+        color: #841921;
+    }
+
+    .home-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .home-box1 {
+        padding: 0px 10px 5px 10px;
+        width: 80%;
+        height: 18vh;
+        border: 2px solid #292929;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .home-box1 .home-box-text1 {
+        font-size: 15px;
+        color: #841921;
+        text-align: left;
+    }
+
+    .home-box-text {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .home-sub {
+        color: #FFBE0A;
+
+    }
+
+    .home-icon1 {
+        color: #FFBE0A;
+        padding-right: 10px;
+
+    }
+
+    .home-icon {
+        color: #841921;
+        padding-right: 10px;
+
+    }
+
+    .pack-img .pack-part-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+        padding: 0 0 50px 0;
+    }
+
+ 
+    .pack-img .pack-img1 {
+        width: 50%;
+        height: 20vh;
+        object-fit: cover;
+
+    }
+    .wed-box{
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .wed-box .wed-box-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+    .wed-box-text{
+        font-size: 50px;
+        color: #292929;
+        padding-bottom: 20px;
+    }
+    .wed-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .wed-main .wed-main-box1{
+        background-color: #841921;
+        width: 90%;
+        height: 14vh;
+        border-radius: 2px 2px;
+    }
+    
+    
+    .box-text{
+        color: #FEFBF6;
+        font-size: 15px;
+        text-align: center;
+         padding: 10px 0 10px 0; 
+    }
+    
+    .box-para{
+        color: #FEFBF6;
+        font-size: 10px;
+        text-align: justify;
+      padding: 0 20px 0 20px;
+    }
+
+
+}
